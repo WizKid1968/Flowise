@@ -24,6 +24,9 @@
         "quick": "pretty-quick --staged",
         "postinstall": "husky install"
     },
+    "dependencies": {
+        "airtable": "^0.11.1"
+    },
     "lint-staged": {
         "*.{js,jsx,ts,tsx,json,md}": "eslint --fix"
     },
